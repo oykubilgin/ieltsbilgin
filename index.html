@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>IELTS Bilgin | IELTS Preparation, Practice Exams & Community</title>
+  <meta name="description" content="IELTS Bilgin helps IELTS candidates prepare with free lessons, practice exams, downloadable PDFs, IELTS information, and a community forum." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700;800&family=Open+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <a href="#main" class="skip-link">Skip to content</a>
+
+  <!-- ══ HEADER ══ -->
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="brand" href="#home" data-link="home" aria-label="IELTS Bilgin home">
+        <img src="logo.png" alt="IELTS Bilgin logo" class="brand-mark" />
+        <span>IELTS Bilgin</span>
+      </a>
+
+      <nav class="desktop-nav" aria-label="Primary navigation">
+        <a href="#home" data-link="home" class="nav-link active">Home</a>
+
+        <div class="dropdown">
+          <button class="nav-trigger" aria-haspopup="true">Information <span>⌄</span></button>
+          <div class="mega-menu" role="menu">
+            <div class="mega-grid">
+              <div class="menu-col">
+                <h4>Basics</h4>
+                <a class="menu-item" href="#information:test-types"        data-link="information" data-section="test-types">Test Types</a>
+                <a class="menu-item" href="#information:test-information"  data-link="information" data-section="test-information">Test Information</a>
+                <a class="menu-item" href="#information:band-scores"       data-link="information" data-section="band-scores">Band Scores</a>
+                <a class="menu-item" href="#information:candidate"         data-link="information" data-section="candidate">IELTS Candidate</a>
+              </div>
+              <div class="menu-col">
+                <h4>Preparation</h4>
+                <a class="menu-item" href="#information:prepare"           data-link="information" data-section="prepare">How to Prepare</a>
+                <a class="menu-item" href="#information:success-tips"      data-link="information" data-section="success-tips">Success Tips</a>
+                <a class="menu-item" href="#information:books"             data-link="information" data-section="books">Recommended Books</a>
+                <a class="menu-item" href="#information:gt-computer"       data-link="information" data-section="gt-computer">GT IELTS / Computer IELTS</a>
+              </div>
+              <div class="menu-col">
+                <h4>Admin / Tools</h4>
+                <a class="menu-item" href="#information:remarking"         data-link="information" data-section="remarking">Remarking</a>
+                <a class="menu-item" href="#one-skill-retake"              data-link="one-skill-retake">One Skill Retake</a>
+                <a class="menu-item" href="#downloads"                     data-link="downloads">Download Center</a>
+                <a class="menu-item" href="#information:resources"         data-link="information" data-section="resources">Useful Links & Resources</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="dropdown">
+          <button class="nav-trigger" aria-haspopup="true">Skills <span>⌄</span></button>
+          <div class="simple-menu" role="menu">
+            <div class="skills-grid">
+              <div class="menu-col">
+                <h4>Listening</h4>
+                <a class="menu-item" href="#skills:listening" data-link="skills" data-section="listening">Tips & Techniques</a>
+                <a class="menu-item" href="#skills:listening" data-link="skills" data-section="listening">Free Lessons</a>
+              </div>
+              <div class="menu-col">
+                <h4>Reading</h4>
+                <a class="menu-item" href="#skills:reading" data-link="skills" data-section="reading">Tips & Techniques</a>
+                <a class="menu-item" href="#skills:reading" data-link="skills" data-section="reading">Free Lessons</a>
+              </div>
+              <div class="menu-col">
+                <h4>Speaking</h4>
+                <a class="menu-item" href="#skills:speaking" data-link="skills" data-section="speaking">Tips & Techniques</a>
+                <a class="menu-item" href="#skills:speaking" data-link="skills" data-section="speaking">Free Lessons</a>
+              </div>
+              <div class="menu-col">
+                <h4>Writing</h4>
+                <a class="menu-item" href="#skills:writing" data-link="skills" data-section="writing">Tips & Techniques</a>
+                <a class="menu-item" href="#skills:writing" data-link="skills" data-section="writing">Task 1</a>
+                <a class="menu-item" href="#skills:writing" data-link="skills" data-section="writing">Task 2</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <a href="#exams" data-link="exams" class="nav-link">Free Exams</a>
+        <a href="#forum" data-link="forum" class="nav-link">Forum</a>
+      </nav>
+
+      <div class="header-actions">
+        <div class="search-wrap desktop-search">
+          <span class="search-icon" aria-hidden="true">⌕</span>
+          <input id="searchInput" class="search-box" type="search" placeholder="Search IELTS resources" autocomplete="off" aria-label="Search IELTS Bilgin" />
+          <div id="suggestions" class="suggestions" role="listbox" aria-label="Search suggestions"></div>
+        </div>
+        <button id="mobileSearchButton" class="icon-btn" aria-label="Open mobile menu search">⌕</button>
+        <button id="themeToggle" class="icon-btn" aria-label="Toggle light and dark mode">☾</button>
+        <button id="hamburger" class="icon-btn hamburger" aria-label="Open menu" aria-expanded="false">☰</button>
+      </div>
+    </div>
+  </header>
+
+  <!-- ══ MOBILE PANEL ══ -->
+  <aside id="mobilePanel" class="mobile-panel" aria-label="Mobile menu">
+    <div class="mobile-search search-wrap">
+      <span class="search-icon" aria-hidden="true">⌕</span>
+      <input id="mobileSearchInput" class="search-box" type="search" placeholder="Search IELTS Bilgin" autocomplete="off" aria-label="Search IELTS Bilgin mobile" />
+      <div id="mobileSuggestions" class="suggestions" role="listbox" aria-label="Mobile search suggestions"></div>
+    </div>
+    <a class="menu-item" href="#home" data-link="home">Home</a>
+    <div class="accordion open">
+      <button class="accordion-trigger">Information <span>+</span></button>
+      <div class="accordion-content">
+        <a class="menu-item" href="#information:test-types"       data-link="information" data-section="test-types">Test Types</a>
+        <a class="menu-item" href="#information:test-information" data-link="information" data-section="test-information">Test Information</a>
+        <a class="menu-item" href="#information:band-scores"      data-link="information" data-section="band-scores">Band Scores</a>
+        <a class="menu-item" href="#information:candidate"        data-link="information" data-section="candidate">IELTS Candidate</a>
+        <a class="menu-item" href="#information:prepare"          data-link="information" data-section="prepare">How to Prepare</a>
+        <a class="menu-item" href="#information:success-tips"     data-link="information" data-section="success-tips">Success Tips</a>
+        <a class="menu-item" href="#information:books"            data-link="information" data-section="books">Recommended Books</a>
+        <a class="menu-item" href="#information:remarking"        data-link="information" data-section="remarking">Remarking</a>
+        <a class="menu-item" href="#information:resources"        data-link="information" data-section="resources">Useful Links & Resources</a>
+      </div>
+    </div>
+    <div class="accordion">
+      <button class="accordion-trigger">Skills <span>+</span></button>
+      <div class="accordion-content">
+        <a class="menu-item" href="#skills:listening" data-link="skills" data-section="listening">Listening</a>
+        <a class="menu-item" href="#skills:reading"   data-link="skills" data-section="reading">Reading</a>
+        <a class="menu-item" href="#skills:writing"   data-link="skills" data-section="writing">Writing</a>
+        <a class="menu-item" href="#skills:speaking"  data-link="skills" data-section="speaking">Speaking</a>
+      </div>
+    </div>
+    <a class="menu-item" href="#exams"           data-link="exams">Free Exams</a>
+    <a class="menu-item" href="#downloads"       data-link="downloads">Download Center</a>
+    <a class="menu-item" href="#one-skill-retake" data-link="one-skill-retake">One Skill Retake</a>
+    <a class="menu-item" href="#forum"           data-link="forum">Forum</a>
+  </aside>
+
+  <!-- ══ MAIN ══ -->
+  <main id="main">
+
+    <!-- Home -->
+    <section id="page-home" class="page active" data-title="Home">
+      <div class="hero">
+        <div>
+          <span class="eyebrow">Academic IELTS guidance • Free lessons • Practice tests</span>
+          <h1>Prepare for IELTS with clarity, structure, and confidence.</h1>
+          <p class="lead">IELTS Bilgin brings together trustworthy information, skill-focused lessons, full practice exams, downloadable study PDFs, and a supportive community for candidates aiming higher.</p>
+          <div class="hero-actions">
+            <button class="btn btn-primary" data-link="exams">Start Free Practice</button>
+            <button class="btn btn-accent"  data-link="downloads">Browse Downloads</button>
+            <button class="btn btn-ghost"   data-link="skills" data-section="writing">Improve Writing</button>
+          </div>
+        </div>
+        <div class="hero-panel" aria-label="IELTS study dashboard preview">
+          <div class="score-card">
+            <div class="score-top">
+              <div>
+                <span class="tag">Target Plan</span>
+                <h3>Band 8.0 Roadmap</h3>
+                <p>Weekly priorities for listening, reading, writing, and speaking.</p>
+              </div>
+              <div class="score-number">8.0</div>
+            </div>
+            <div class="progress-list">
+              <div class="progress-item"><span><b>Writing accuracy</b><b>76%</b></span><div class="bar"><i style="--value: 76%"></i></div></div>
+              <div class="progress-item"><span><b>Reading speed</b><b>82%</b></span><div class="bar"><i style="--value: 82%"></i></div></div>
+              <div class="progress-item"><span><b>Speaking fluency</b><b>69%</b></span><div class="bar"><i style="--value: 69%"></i></div></div>
+            </div>
+            <div class="stats-grid">
+              <div class="stat"><strong>40+</strong><span>Lessons</span></div>
+              <div class="stat"><strong>18</strong><span>PDFs</span></div>
+              <div class="stat"><strong>12</strong><span>Practice sets</span></div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <section class="section">
+        <div class="section-head">
+          <div>
+            <h2>Choose your next IELTS step</h2>
+            <p>Jump into essential information, skill lessons, practice exams, downloads, or community support without feeling lost.</p>
+          </div>
+        </div>
+        <div id="quickCards" class="grid grid-4"></div>
+      </section>
+
+      <section class="section">
+        <div class="section-head">
+          <div>
+            <h2>Featured resources</h2>
+            <p>Hand-picked materials for candidates who want a realistic, focused study routine.</p>
+          </div>
+          <button class="btn btn-ghost" data-link="downloads">View all files</button>
+        </div>
+        <div class="grid grid-3" id="featuredResources"></div>
+      </section>
+
+      <section class="section">
+        <div class="section-head">
+          <div>
+            <h2>Success tips preview</h2>
+            <p>Small habits make a large difference when your preparation is consistent and feedback-driven.</p>
+          </div>
+        </div>
+        <div class="grid grid-3">
+          <article class="card"><span class="tag">Writing</span><h3>Plan before you write</h3><p>Spend 4–5 minutes organizing ideas, examples, and paragraph purpose before Task 2.</p></article>
+          <article class="card"><span class="tag">Reading</span><h3>Search with purpose</h3><p>Predict the type of answer, scan for location, then read the sentence carefully.</p></article>
+          <article class="card"><span class="tag">Speaking</span><h3>Extend naturally</h3><p>Use reason, example, contrast, and feeling to avoid short answers without sounding memorized.</p></article>
+        </div>
+      </section>
+    </section>
+
+    <!-- Information -->
+    <section id="page-information" class="page" data-title="Information">
+      <div class="page-hero">
+        <div class="section">
+          <span class="eyebrow">IELTS Information Center</span>
+          <h1>Understand the test before you prepare.</h1>
+          <p class="lead">Learn test types, timing, band scores, preparation strategy, remarking, recommended books, and practical resources.</p>
+        </div>
+      </div>
+      <div class="section article-layout">
+        <aside class="side-nav" id="infoSideNav"></aside>
+        <div class="article-content" id="infoContent"></div>
+      </div>
+    </section>
+
+    <!-- Skills -->
+    <section id="page-skills" class="page" data-title="Skills">
+      <div class="page-hero">
+        <div class="section">
+          <span class="eyebrow">Listening • Reading • Writing • Speaking</span>
+          <h1>Build every IELTS skill with focused lessons.</h1>
+          <p class="lead">Each skill area includes tips, techniques, example materials, and calls to action for deeper practice.</p>
+        </div>
+      </div>
+      <div class="section article-layout">
+        <aside class="side-nav" id="skillsSideNav"></aside>
+        <div class="article-content" id="skillsContent"></div>
+      </div>
+    </section>
+
+    <!-- Free Exams -->
+    <section id="page-exams" class="page" data-title="Free Exams">
+      <div class="page-hero">
+        <div class="section">
+          <span class="eyebrow">Practice & Testing</span>
+          <h1>Free IELTS exams and sectional practice tests.</h1>
+          <p class="lead">Use these mock test cards to simulate real exam conditions, review answers, and download study files.</p>
+        </div>
+      </div>
+      <div class="section">
+        <div class="section-head">
+          <div>
+            <h2>Practice library</h2>
+            <p>Choose a full-length exam or focus on one section at a time.</p>
+          </div>
+        </div>
+        <div class="grid grid-3" id="examCards"></div>
+      </div>
+    </section>
+
+    <!-- Downloads -->
+    <section id="page-downloads" class="page" data-title="Download Center">
+      <div class="page-hero">
+        <div class="section">
+          <span class="eyebrow">PDFs & Study Files</span>
+          <h1>Download Center</h1>
+          <p class="lead">Organized study materials for listening, reading, writing, speaking, vocabulary, practice tests, checklists, and answer sheets.</p>
+        </div>
+      </div>
+      <div class="section">
+        <div class="filters" id="downloadFilters"></div>
+        <div class="grid grid-3" id="downloadCards"></div>
+      </div>
+    </section>
+
+    <!-- One Skill Retake -->
+    <section id="page-one-skill-retake" class="page" data-title="One Skill Retake">
+      <div class="page-hero">
+        <div class="section">
+          <span class="eyebrow">IELTS One Skill Retake</span>
+          <h1>Retake one IELTS skill instead of the full test.</h1>
+          <p class="lead">A practical overview of what One Skill Retake is, eligibility, application steps, costs, conditions, and preparation tips.</p>
+        </div>
+      </div>
+      <div class="section">
+        <div class="grid grid-2">
+          <article class="card"><h3>What it is</h3><p>IELTS One Skill Retake allows eligible candidates to retake one component: Listening, Reading, Writing, or Speaking. It is useful when one score is below your target while your other scores are strong.</p></article>
+          <article class="card"><h3>Eligibility</h3><p>Eligibility depends on your test center and test type. Candidates usually need a recent eligible IELTS result and must apply within the permitted period set by the provider.</p></article>
+          <article class="card"><h3>Costs and application</h3><p>Fees vary by country and test center. Apply through your official test taker account or contact your local IELTS provider. Always confirm deadlines before booking.</p></article>
+          <article class="card"><h3>Important conditions</h3><p>Only one skill can be retaken. Institutions may have different policies on accepting One Skill Retake results, so check your university, employer, or immigration authority first.</p></article>
+        </div>
+        <div class="card" style="margin-top:20px">
+          <h2>Tips before applying</h2>
+          <ol>
+            <li>Check whether your receiving organization accepts One Skill Retake.</li>
+            <li>Analyze why the original score was lower: timing, grammar, task response, anxiety, or strategy.</li>
+            <li>Book only after completing targeted practice and feedback.</li>
+            <li>Use a timed mock test for the specific skill before the retake.</li>
+          </ol>
+        </div>
+      </div>
+    </section>
+
+    <!-- Forum -->
+    <section id="page-forum" class="page" data-title="Forum">
+      <div class="page-hero">
+        <div class="section">
+          <span class="eyebrow">Share Your Experience</span>
+          <h1>IELTS candidate community forum.</h1>
+          <p class="lead">Create posts, upload images, comment, and reply to other candidates. This demo stores posts in your browser local storage.</p>
+        </div>
+      </div>
+      <div class="section forum-layout">
+        <aside class="card">
+          <h2>Create a post</h2>
+          <form id="postForm" class="form-grid">
+            <div><label for="authorName">Name</label><input id="authorName" required placeholder="Your name" /></div>
+            <div><label for="postTitle">Title</label><input id="postTitle" required placeholder="My speaking test experience" /></div>
+            <div><label for="postCategory">Category</label><select id="postCategory"></select></div>
+            <div><label for="postBody">Experience</label><textarea id="postBody" required placeholder="Share details, questions, timing, tips, and what surprised you..."></textarea></div>
+            <div>
+              <label for="postImage">Photo or image</label>
+              <input id="postImage" type="file" accept="image/*" />
+              <img id="imagePreview" class="attachment-preview" alt="Selected attachment preview" />
+            </div>
+            <button class="btn btn-primary" type="submit">Publish Experience</button>
+          </form>
+        </aside>
+        <div>
+          <div class="filters" id="forumFilters"></div>
+          <div class="grid" id="forumPosts"></div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ══ FOOTER ══ -->
+  <footer class="footer">
+    <div class="footer-inner">
+      <div class="footer-row">
+        <div class="footer-label">The Expert</div>
+        <div class="expert-box">
+          <img src="author-photo.png" alt="Oyku – IELTS Bilgin" class="author-photo" />
+          <div>
+            <h3 style="color:white;margin-bottom:8px">Oyku – The IELTS Bilgin</h3>
+            <p><strong>Helping you navigate the path to a Band 8.0 with clarity and confidence.</strong></p>
+            <p>Credentials: IELTS educator, academic skills mentor, and exam strategy coach. Mission: to make IELTS preparation organized, honest, and student-friendly.</p>
+            <p><strong>Who Am I?</strong> I guide IELTS candidates with clear explanations, practical feedback, and realistic preparation tools so every learner knows what to study next.</p>
+          </div>
+        </div>
+      </div>
+      <div class="footer-row">
+        <div class="footer-label">Quick Help</div>
+        <div class="quick-links">
+          <a href="#exams"                    data-link="exams">Free IELTS Exams</a>
+          <a href="#information:success-tips" data-link="information" data-section="success-tips">Success Tips</a>
+          <a href="#skills:writing"           data-link="skills" data-section="writing">Writing Tasks 1 & 2</a>
+        </div>
+      </div>
+      <div class="footer-row">
+        <div class="footer-label">Contact Me</div>
+        <div class="quick-links">
+          <div class="contact-line"><span>✉️</span><a href="mailto:ieltsbilginstudy@gmail.com">ieltsbilginstudy@gmail.com</a></div>
+          <div class="contact-line"><span style="color:silver">🔗</span><a href="#" aria-label="LinkedIn placeholder">LinkedIn profile placeholder</a></div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <div id="toast" class="toast" role="status" aria-live="polite"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>

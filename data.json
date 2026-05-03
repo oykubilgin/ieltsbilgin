@@ -1,0 +1,133 @@
+{
+  "quickCards": [
+    ["IELTS Information", "Understand test format, band scores, IELTS types, and candidate essentials.", "information", "test-information", "📘"],
+    ["Listening", "Learn how to predict, follow signposting, and avoid distractors.", "skills", "listening", "🎧"],
+    ["Reading", "Build scanning, skimming, and question-type strategies.", "skills", "reading", "📖"],
+    ["Writing", "Master Task 1, Task 2, sample answers, mistakes, and improvement tips.", "skills", "writing", "✍️"],
+    ["Speaking", "Improve fluency, coherence, vocabulary range, and pronunciation.", "skills", "speaking", "🗣️"],
+    ["Free IELTS Exams", "Try full-length and sectional practice tests with answers.", "exams", "", "📝"],
+    ["Download Center", "Get answer sheets, checklists, exercises, vocabulary, and templates.", "downloads", "", "⬇️"],
+    ["Forum", "Share your IELTS experience and learn from other candidates.", "forum", "", "💬"]
+  ],
+  "infoSections": {
+    "test-types": {
+      "title": "Test Types",
+      "tag": "Basics",
+      "html": "<p>IELTS is available in several formats depending on your purpose. Choose the version required by your university, employer, immigration authority, or professional body.</p><div class=\"grid grid-3\"><article class=\"card\"><h3>IELTS Academic</h3><p>Designed for higher education and professional registration. Reading and Writing focus on academic texts, charts, arguments, and formal essay skills.</p></article><article class=\"card\"><h3>IELTS General Training</h3><p>Usually used for migration, work, and training. Reading and Writing include more everyday workplace and social contexts.</p></article><article class=\"card\"><h3>IELTS UKVI</h3><p>A secure version accepted for certain UK visa and immigration routes. The content is similar, but the administration follows UKVI requirements.</p></article></div>"
+    },
+    "test-information": {
+      "title": "Test Information",
+      "tag": "Format",
+      "html": "<p>The IELTS exam evaluates four language skills: Listening, Reading, Writing, and Speaking. Listening, Reading, and Writing are normally completed on the same day. Speaking may be scheduled on the same day or nearby date.</p><div class=\"table-wrap\"><table><thead><tr><th>Section</th><th>Time</th><th>Focus</th><th>Best preparation habit</th></tr></thead><tbody><tr><td>Listening</td><td>About 30 minutes</td><td>Understanding recordings and answering in real time</td><td>Practice prediction and spelling</td></tr><tr><td>Reading</td><td>60 minutes</td><td>Finding information and understanding meaning</td><td>Time each passage strictly</td></tr><tr><td>Writing</td><td>60 minutes</td><td>Task 1 report/letter and Task 2 essay</td><td>Use planning and feedback</td></tr><tr><td>Speaking</td><td>11–14 minutes</td><td>Interview, long turn, and discussion</td><td>Record and review answers</td></tr></tbody></table></div>"
+    },
+    "band-scores": {
+      "title": "Band Scores",
+      "tag": "0–9 Scale",
+      "html": "<p>IELTS results are reported on a 0–9 band scale. Each section receives a band score, and the overall band is calculated from the four components.</p><div class=\"grid grid-3\"><article class=\"card\"><h3>Band 5–6</h3><p>Communication is possible, but errors, limited range, or incomplete task response can reduce clarity.</p></article><article class=\"card\"><h3>Band 6.5–7</h3><p>Generally effective communication with better control, stronger organization, and fewer meaning-blocking errors.</p></article><article class=\"card\"><h3>Band 7.5–9</h3><p>Strong flexibility, precise vocabulary, accurate grammar, and confident handling of complex ideas.</p></article></div>"
+    },
+    "candidate": {
+      "title": "IELTS Candidate",
+      "tag": "Test-taker guide",
+      "html": "<ul><li>Check the exact IELTS version required before booking.</li><li>Bring accepted identification on test day.</li><li>Practice under timed conditions, not only with untimed lessons.</li><li>Keep a mistake log for spelling, grammar, question types, and timing.</li><li>Use official-style answer sheets to reduce test-day surprises.</li></ul>"
+    },
+    "success-tips": {
+      "title": "Success Tips",
+      "tag": "Performance",
+      "html": "<div class=\"grid grid-2\"><article class=\"card\"><h3>Practice like the real exam</h3><p>Use timers, answer sheets, no pausing, and quiet conditions. Reflection after each test matters more than simply doing more tests.</p></article><article class=\"card\"><h3>Get feedback for productive skills</h3><p>Writing and Speaking scores improve faster when you identify patterns: weak development, grammar range, repetition, pronunciation, or cohesion problems.</p></article><article class=\"card\"><h3>Review errors weekly</h3><p>Separate errors into vocabulary, grammar, timing, misunderstanding, and carelessness. Then build mini-lessons from those patterns.</p></article><article class=\"card\"><h3>Protect your confidence</h3><p>Use a realistic roadmap. Avoid comparing your timeline to other candidates because starting levels and target scores differ.</p></article></div>"
+    },
+    "prepare": {
+      "title": "How to Prepare",
+      "tag": "Roadmap",
+      "html": "<ol><li><strong>Diagnose:</strong> Take a timed placement test and identify skill gaps.</li><li><strong>Learn:</strong> Study question types, band descriptors, and task expectations.</li><li><strong>Practice:</strong> Complete focused exercises before full tests.</li><li><strong>Review:</strong> Keep a mistake log and rewrite weak answers.</li><li><strong>Simulate:</strong> Take full mock exams weekly near your test date.</li><li><strong>Refine:</strong> Target your lowest skill with teacher or peer feedback.</li></ol>"
+    },
+    "gt-computer": {
+      "title": "GT IELTS & Computer IELTS",
+      "tag": "Comparison",
+      "html": "<div class=\"comparison\"><article class=\"card\"><h3>General Training IELTS</h3><p>Best for many migration and work purposes. Writing Task 1 is a letter, and reading texts are usually more everyday, workplace, or training focused.</p></article><article class=\"card\"><h3>Computer IELTS</h3><p>Best for candidates comfortable typing and reading on screen. Results may be faster depending on provider, and editing written answers can feel easier.</p></article></div><div class=\"table-wrap\" style=\"margin-top:18px\"><table><thead><tr><th>Format</th><th>Pros</th><th>Cons</th></tr></thead><tbody><tr><td>Computer-based</td><td>Easy editing, typing, screen timer, often convenient slots</td><td>Requires typing speed and screen reading comfort</td></tr><tr><td>Paper-based</td><td>Familiar handwriting and annotation experience</td><td>Harder editing and handwriting clarity matters</td></tr></tbody></table></div>"
+    },
+    "remarking": {
+      "title": "Remarking / EOR",
+      "tag": "Admin",
+      "html": "<p>Enquiry on Results, also called EOR, is a remarking request. It may be useful when you strongly believe one or more component scores do not reflect your performance.</p><ul><li>Check the deadline and fee with your test provider.</li><li>Writing and Speaking are more likely to change than Listening or Reading because they involve examiner judgment.</li><li>If the score changes, providers may refund the remarking fee depending on their rules.</li><li>Do not rely on remarking as a preparation strategy; use it only when there is a strong reason.</li></ul>"
+    },
+    "resources": {
+      "title": "Useful Links & Resources",
+      "tag": "Tools",
+      "html": "<div class=\"grid grid-3\"><article class=\"card\"><h3>Band descriptor checklist</h3><p>Use this to evaluate Writing and Speaking performance against task response, coherence, vocabulary, grammar, fluency, and pronunciation.</p></article><article class=\"card\"><h3>Vocabulary tracker</h3><p>Record topic vocabulary with sentence examples rather than isolated translations.</p></article><article class=\"card\"><h3>Mock test planner</h3><p>Schedule full tests, review days, and targeted practice blocks so preparation stays balanced.</p></article></div>"
+    },
+    "books": {
+      "title": "Recommended Books",
+      "tag": "Study list",
+      "html": "<div class=\"grid grid-2\"><article class=\"card\"><h3>Official practice materials</h3><p>Prioritize official-style practice tests for accurate format, difficulty, and answer key logic.</p></article><article class=\"card\"><h3>Skill-focused books</h3><p>Use separate resources for IELTS Writing, academic vocabulary, grammar for accuracy, and reading strategies.</p></article><article class=\"card\"><h3>How to choose</h3><p>Pick books with answer explanations, sample essays, model speaking responses, and progressive practice.</p></article><article class=\"card\"><h3>Study warning</h3><p>Do not collect too many books. One good book completed carefully is better than five books skimmed quickly.</p></article></div>"
+    }
+  },
+  "skillSections": {
+    "listening": {
+      "title": "Listening",
+      "tag": "Prediction • Focus • Spelling",
+      "html": "<div class=\"grid grid-3\"><article class=\"card\"><h3>Tips & Techniques</h3><p>Preview questions, predict grammar type, listen for signposting, and watch for distractors when speakers correct themselves.</p></article><article class=\"card\"><h3>Free Lessons</h3><p>Practice map labeling, multiple choice, form completion, and lecture note completion with short daily drills.</p></article><article class=\"card\"><h3>Example Material</h3><p>Try a 10-question mini set, then check spelling, plural forms, word limit, and capitalization consistency.</p></article></div><div class=\"button-row\"><button class=\"btn btn-primary\" data-link=\"exams\">Start Listening Practice</button><button class=\"btn btn-ghost\" data-link=\"downloads\">Download Worksheet</button></div>"
+    },
+    "reading": {
+      "title": "Reading",
+      "tag": "Skimming • Scanning • Logic",
+      "html": "<div class=\"grid grid-3\"><article class=\"card\"><h3>Tips & Techniques</h3><p>Read the question first, locate keywords and paraphrases, then read around the answer sentence carefully.</p></article><article class=\"card\"><h3>Free Lessons</h3><p>Focus on True/False/Not Given, matching headings, sentence completion, and matching information.</p></article><article class=\"card\"><h3>Example Material</h3><p>Use one passage for three goals: timing, question type review, and vocabulary extraction.</p></article></div><div class=\"button-row\"><button class=\"btn btn-primary\" data-link=\"exams\">Start Reading Test</button><button class=\"btn btn-ghost\" data-link=\"downloads\">Download Passage Pack</button></div>"
+    },
+    "writing": {
+      "title": "Writing",
+      "tag": "Task 1 • Task 2 • Feedback",
+      "html": "<div class=\"grid grid-2\"><article class=\"card\"><h3>Writing Tips & Techniques</h3><p>Analyze the task, plan paragraph roles, use clear topic sentences, and leave time to check grammar and word forms.</p></article><article class=\"card\"><h3>Task 1 Guidance</h3><p>Identify overview trends, compare key data, avoid listing every number, and use precise language for increase, decrease, stability, and contrast.</p></article><article class=\"card\"><h3>Task 2 Guidance</h3><p>Answer every part of the question, develop ideas with explanation and examples, and maintain a clear position throughout the essay.</p></article><article class=\"card\"><h3>Sample Answers</h3><p>Study model answers by asking: What is the paragraph purpose? How is the idea extended? What grammar and vocabulary patterns are reusable?</p></article><article class=\"card\"><h3>Common Mistakes</h3><p>Memorized introductions, weak examples, overgeneralization, sentence fragments, informal tone, and poor time management reduce scores.</p></article><article class=\"card\"><h3>Band Score Improvement</h3><p>Improve one criterion at a time: task response, coherence and cohesion, lexical resource, or grammatical range and accuracy.</p></article></div><div class=\"button-row\"><button class=\"btn btn-primary\" data-link=\"downloads\">Download Writing Templates</button><button class=\"btn btn-accent\" data-link=\"exams\">View Writing Prompts</button></div>"
+    },
+    "speaking": {
+      "title": "Speaking",
+      "tag": "Fluency • Range • Confidence",
+      "html": "<div class=\"grid grid-3\"><article class=\"card\"><h3>Tips & Techniques</h3><p>Answer directly, extend with reasons and examples, use natural linking, and avoid memorized speeches.</p></article><article class=\"card\"><h3>Free Lessons</h3><p>Practice Part 1 personal questions, Part 2 cue cards, and Part 3 abstract discussion questions.</p></article><article class=\"card\"><h3>Example Material</h3><p>Record yourself twice: first for fluency, second for grammar correction and vocabulary upgrade.</p></article></div><div class=\"button-row\"><button class=\"btn btn-primary\" data-link=\"exams\">Practice Speaking Questions</button><button class=\"btn btn-ghost\" data-link=\"forum\">Share Test Experience</button></div>"
+    }
+  },
+  "downloads": [
+    ["IELTS Answer Sheet Pack", "Printable Listening, Reading, and Writing answer sheets for timed practice.", "Answer Sheets", "PDF"],
+    ["Band 8 Writing Checklist", "A pre-submit checklist for Task 1 and Task 2 clarity, grammar, and development.", "Checklists", "PDF"],
+    ["Listening Distractor Worksheet", "Exercises for recognizing speaker correction, contrast, and changed answers.", "Listening", "PDF"],
+    ["Reading Passage Set A", "Academic reading practice with questions and answer review prompts.", "Reading", "PDF"],
+    ["Task 1 Vocabulary Bank", "Useful phrases for trends, comparisons, maps, processes, and tables.", "Writing", "PDF"],
+    ["Task 2 Essay Planner", "A structured template for opinion, discussion, advantages, and problem-solution essays.", "Writing", "PDF"],
+    ["Speaking Cue Card Pack", "Part 2 prompts with follow-up Part 3 discussion questions.", "Speaking", "PDF"],
+    ["Academic Vocabulary List", "High-frequency academic vocabulary with sentence examples.", "Vocabulary", "PDF"],
+    ["Full Mock Test 01", "A complete practice test package with instructions and answer key.", "Practice Tests", "ZIP"],
+    ["Weekly Study Planner", "A balanced 4-week preparation schedule for IELTS candidates.", "Checklists", "PDF"]
+  ],
+  "exams": [
+    ["Full IELTS Mock Exam 01", "Complete Listening, Reading, Writing, and Speaking practice experience.", "Full Exam", ["Download Test", "Start Practice", "View Answers"]],
+    ["Listening Practice Test A", "Four-section listening practice with note completion and multiple choice.", "Listening", ["Download Test", "Start Practice", "View Answers"]],
+    ["Reading Practice Test A", "Three-passage academic reading set with answer explanations.", "Reading", ["Download Test", "Start Practice", "View Answers"]],
+    ["Writing Task 1 Prompts", "Charts, maps, tables, and process diagrams for report writing.", "Writing", ["Download Prompts", "Start Practice", "View Samples"]],
+    ["Writing Task 2 Question Bank", "Opinion, discussion, problem-solution, and advantages/disadvantages essays.", "Writing", ["Download Prompts", "Start Practice", "View Samples"]],
+    ["Speaking Practice Questions", "Part 1, Part 2, and Part 3 questions for recording practice.", "Speaking", ["Download Questions", "Start Practice", "View Tips"]]
+  ],
+  "forumCategories": ["All", "Academic IELTS", "General Training IELTS", "Speaking Test Experience", "Writing Tips", "Computer IELTS", "One Skill Retake"],
+  "seedPosts": [
+    {
+      "author": "Merve",
+      "title": "My computer IELTS speaking felt easier than expected",
+      "category": "Computer IELTS",
+      "body": "The speaking examiner was friendly. Part 2 asked me to describe a useful website. My biggest tip is to practice extending answers without memorizing.",
+      "image": "",
+      "comments": [
+        {
+          "author": "Can",
+          "text": "Did you get many follow-up questions in Part 3?",
+          "replies": [
+            { "author": "Merve", "text": "Yes, mostly about online learning and trust in information." }
+          ]
+        }
+      ]
+    },
+    {
+      "author": "Ali",
+      "title": "Writing Task 2 timing advice",
+      "category": "Writing Tips",
+      "body": "I improved after forcing myself to spend 5 minutes planning and 3 minutes checking. It felt slower at first but my essays became clearer.",
+      "image": "",
+      "comments": []
+    }
+  ]
+}
